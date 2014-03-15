@@ -1,0 +1,20 @@
+grid system is x (top to bottom), y (right to left)
+ 0,0   0,1   0,2
+ 1,0   1,1   1,2
+ 2,0   2,1   2,2
+Orientation is (top, bottom, west, east, north, south)
+Start state is :
+1.....
+.****.
+.*....
+.*....
+......
+-------Manhattan Distance--------No Solution found
+visited nodes =3
+Generated nodes =3
+-------Euclidean Distance--------No Solution found
+visited nodes =3
+Generated nodes =3
+-------Die Orientation Distance--------No Solution found
+visited nodes =3
+Generated nodes =3

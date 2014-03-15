@@ -1,0 +1,92 @@
+grid system is x (top to bottom), y (right to left)
+ 0,0   0,1   0,2
+ 1,0   1,1   1,2
+ 2,0   2,1   2,2
+Orientation is (top, bottom, west, east, north, south)
+Start state is :
+1....
+.....
+-------Manhattan Distance--------
+Action :down	Orientation :(2, 5, 4, 3, 6, 1)	Positon:(1, 0)
+.....
+2....
+
+Action :right	Orientation :(4, 3, 5, 2, 6, 1)	Positon:(1, 1)
+.....
+.4...
+
+Action :right	Orientation :(5, 2, 3, 4, 6, 1)	Positon:(1, 2)
+.....
+..5..
+
+Action :right	Orientation :(3, 4, 2, 5, 6, 1)	Positon:(1, 3)
+.....
+...3.
+
+Action :right	Orientation :(2, 5, 4, 3, 6, 1)	Positon:(1, 4)
+.....
+....2
+
+Action :up	Orientation :(1, 6, 4, 3, 2, 5)	Positon:(0, 4)
+....1
+.....
+
+visited nodes =15
+Generated nodes =22
+ Moves in Solution Path =6
+-------Euclidean Distance--------
+Action :down	Orientation :(2, 5, 4, 3, 6, 1)	Positon:(1, 0)
+.....
+2....
+
+Action :right	Orientation :(4, 3, 5, 2, 6, 1)	Positon:(1, 1)
+.....
+.4...
+
+Action :right	Orientation :(5, 2, 3, 4, 6, 1)	Positon:(1, 2)
+.....
+..5..
+
+Action :right	Orientation :(3, 4, 2, 5, 6, 1)	Positon:(1, 3)
+.....
+...3.
+
+Action :right	Orientation :(2, 5, 4, 3, 6, 1)	Positon:(1, 4)
+.....
+....2
+
+Action :up	Orientation :(1, 6, 4, 3, 2, 5)	Positon:(0, 4)
+....1
+.....
+
+visited nodes =15
+Generated nodes =22
+ Moves in Solution Path =6
+-------Die Orientation Distance--------
+Action :down	Orientation :(2, 5, 4, 3, 6, 1)	Positon:(1, 0)
+.....
+2....
+
+Action :right	Orientation :(4, 3, 5, 2, 6, 1)	Positon:(1, 1)
+.....
+.4...
+
+Action :right	Orientation :(5, 2, 3, 4, 6, 1)	Positon:(1, 2)
+.....
+..5..
+
+Action :right	Orientation :(3, 4, 2, 5, 6, 1)	Positon:(1, 3)
+.....
+...3.
+
+Action :right	Orientation :(2, 5, 4, 3, 6, 1)	Positon:(1, 4)
+.....
+....2
+
+Action :up	Orientation :(1, 6, 4, 3, 2, 5)	Positon:(0, 4)
+....1
+.....
+
+visited nodes =9
+Generated nodes =13
+ Moves in Solution Path =6
